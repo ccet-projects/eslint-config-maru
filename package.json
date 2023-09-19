@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-maru",
+  "version": "1.0.0",
+  "description": "Eslint rules for CCET projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ccet-projects/eslint-config-maru.git"
+  },
+  "author": "Anna Agte <matiasrustagte@gmail.com>",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "15.x"
+  },
+  "peerDependencies": {
+    "eslint": "8.x",
+    "eslint-plugin-import": "2.x"
+  }
+}
